@@ -13,5 +13,4 @@ const Form = ({ userIsRegistered }) => {
 };
 
 export default Form;
-
-// 特に定義はしていないので!OOならfalseになるよ
+// メインのvar userIsRegistered = false;は引き継がれる
