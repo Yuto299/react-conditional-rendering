@@ -14,3 +14,5 @@ const Form = ({ userIsRegistered }) => {
 
 export default Form;
 // メインのvar userIsRegistered = false;は引き継がれる
+// あくまでも状態として受け継がれるだけ false状態なのでregisterが永遠に
+// falseが代入されているわけではない 普通の実装を書けばいいだけ
