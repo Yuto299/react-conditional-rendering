@@ -1,9 +1,9 @@
-const Input = (props) => {
-  return (
-    <>
-      <input type={props.type} placeholder={props.placeholder} />
-    </>
-  );
-};
+// const Input = (props) => {
+//   return (
+//     <>
+//       <input type={props.type} placeholder={props.placeholder} />
+//     </>
+//   );
+// };
 
-export default Input;
+// export default Input;
