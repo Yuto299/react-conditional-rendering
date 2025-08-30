@@ -6,6 +6,7 @@ const Form = ({ userIsRegistered }) => {
       {!userIsRegistered && (
         <input type="password" placeholder="Confirm Password" />
       )}
+      {/* trueは右が発動 */}
 
       <button type="submit">{userIsRegistered ? "Login" : "Register"}</button>
     </form>
